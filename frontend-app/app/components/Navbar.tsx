@@ -17,8 +17,8 @@ export function Navbar() {
 
   const navItems = [
     { name: "Home", href: "#" },
-    { name: "Sign File", href: "#" },
-    { name: "Verify File", href: "#" },
+    { name: "Sign File", href: "/sign" },
+    { name: "Verify File", href: "/verify" },
   ]
 
   return (
